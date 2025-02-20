@@ -11,7 +11,8 @@ This project generates personalized certificates from an Excel spreadsheet and a
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3.x
-- Microsoft Word (for DOCX to PDF conversion)
+- Microsoft Word
+- PDF Reader (to see your generated files)
 - Required Python libraries:
   ```sh
   pip install pandas python-docx comtypes
@@ -51,8 +52,7 @@ project-root/
 4. The generated certificates will be stored in `certificates_docx/` and `certificates_pdf/`.
 
 ## Notes
-- The script requires Microsoft Word for DOCX to PDF conversion.
-- The placeholders in the Word template must match those used in the script (e.g., `{{FIRST_NAME}}`).
+- Uncomment line 44 and comment the following lines to check the output before generating the files. If the response is correct, uncomment the code to generate your certificates normally. Otherwise, fix the placeholders to match the cript.
 - A delay (`time.sleep(2)`) is added before converting to PDF to ensure the DOCX file is saved properly.
 - To ensure images are correctly placed, I had to insert the signature as a watermark in the template. Future versions will address this issue by enabling direct image insertion into the DOCX template.
 
