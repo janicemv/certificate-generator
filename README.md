@@ -52,7 +52,7 @@ project-root/
 4. The generated certificates will be stored in `certificates_docx/` and `certificates_pdf/`.
 
 ## Notes
-- Uncomment line 44 and comment the following lines to check the output before generating the files. If the response is correct, uncomment the code to generate your certificates normally. Otherwise, fix the placeholders to match the cript.
+- Uncomment line 44 and comment the following lines to check the output before generating the files. If the response is correct, uncomment the code to generate your certificates normally. Otherwise, fix the placeholders to match the script.
 - A delay (`time.sleep(2)`) is added before converting to PDF to ensure the DOCX file is saved properly.
 - To ensure images are correctly placed, I had to insert the signature as a watermark in the template. Future versions will address this issue by enabling direct image insertion into the DOCX template.
 
