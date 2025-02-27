@@ -2,7 +2,7 @@
 
 This project generates personalized certificates from an Excel spreadsheet and a Word template. It replaces placeholders in the template with real data and saves the output in both DOCX and PDF formats.
 
-I used this code in a more robust way to generate the certificates for the [European Ovary Workshop](https://europeanovaryworkshop.com/).
+I used this code in a more robust way to generate the certificates for the [European Ovary Workshop](https://europeanovaryworkshop.com/), with specific templates for posters, presentations, attendees and organisers.
 
 ## Features
 - Reads participant data from an Excel file
